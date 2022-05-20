@@ -1,0 +1,16 @@
+.corpo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.corpo .texto {
+    margin-right: 30%;
+}
+
+.corpo .imgLogos {
+    background-color: black;
+    width: 900px;
+    height: 250px;
+}

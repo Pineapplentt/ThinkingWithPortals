@@ -1,0 +1,107 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.quadrados1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quadrados2 {
+    margin-top: 70px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tecnologia1 {
+    background-color: #c4c4c4;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.tecnologia2 {
+    background-color: #c4c4c4;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.tecnologia3 {
+    background-color: #c4c4c4;
+    background-image: url(/img/apertureBackgroundRoom.jpeg);
+    background-size: 220px;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.tecnologia4 {
+    background-color: #c4c4c4;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.tecnologia5 {
+    background-color: #c4c4c4;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.tecnologia6 {
+    background-color: #c4c4c4;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+p {
+    position: absolute;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.p1 {
+    margin-left: 56px;
+}
+
+.p2 {
+    margin-left: 7px;
+}
+
+.p3 {
+    margin-left: 100px;
+}
+
+.p4 {
+    margin-left: 70px;
+}
+
+.quadrados1 :hover {
+    color: wheat;
+    background-color: rgb(64, 64, 64);
+    transition: 400ms;
+    border-radius: 50px;
+    margin-bottom: 3%;
+}
+
+.quadrados2 :hover {
+    color: wheat;
+    background-color: rgb(64, 64, 64);
+    transition: 400ms;
+    border-radius: 50px;
+    margin-bottom: 3%;
+}
