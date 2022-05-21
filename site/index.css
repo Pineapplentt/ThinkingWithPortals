@@ -1,16 +1,27 @@
 .corpo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
 }
 
+.corpo .primeiraParte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
 .corpo .texto {
-    margin-right: 30%;
+    width: 50%;
+    margin-right: 100px;
 }
 
 .corpo .imgLogos {
-    background-color: black;
-    width: 900px;
-    height: 250px;
+    background-image: url(img/LogosAperture.png);
+    background-size: 100%;
+    background-position: center;
+    width: 35%;
+    height: 17vw;
 }

@@ -11,6 +11,17 @@ body {
     flex-direction: row;
     width: 100%;
     margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(23, 23, 23);
+}
+
+.header .abas :hover {
+    color: rgb(0, 96, 236);
+    transition: 300ms;
 }
 
 .abas {
@@ -29,9 +40,15 @@ body {
 }
 
 .logoimg {
-    background-image: url(/img/apertureLaboratoriesLogo.png);
-    background-color: aqua;
-    height: 70px;
-    width: 70px;
-    background-size: 70px;
+    background-image: url(img/Aperture_Laboratories_Logo.png);
+    height: 50px;
+    width: 200px;
+    background-size: 200px;
+}
+
+.logolink :hover {
+    background-image: url(img/ApertureLaboratoriesAzul.png);
+    background-position-x: center;
+    background-position-y: center;
+    transition: 100ms;
 }
