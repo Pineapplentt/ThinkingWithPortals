@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0066ffa3;
+    background-color: rgb(19, 19, 19);
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.641);
@@ -60,7 +60,7 @@ body {
 
 .pCadastro {
     position: absolute;
-    margin-top: 180px;
+    margin-top: 170px;
     margin-left: 235px;
 }
 
