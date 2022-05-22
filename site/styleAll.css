@@ -20,7 +20,7 @@ body {
 }
 
 .header .abas :hover {
-    color: rgb(0, 96, 236);
+    color: #0065ff;
     transition: 300ms;
 }
 
