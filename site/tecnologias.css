@@ -48,8 +48,10 @@
 
 .tecnologia3 {
     background-color: #c4c4c4;
-    background-image: url(img/apertureAntiga.png);
-    background-size: 220px;
+    background-image: url(img/painel1.jpg);
+    background-size: 175%;
+    background-position-x: 60%;
+    background-position-y: center;
     width: 220px;
     height: 220px;
     border-radius: 20px;
@@ -68,6 +70,10 @@
 
 .tecnologia5 {
     background-color: #c4c4c4;
+    background-image: url(img/turret.jpg);
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
     width: 220px;
     height: 220px;
     border-radius: 20px;
@@ -75,6 +81,10 @@
 
 .tecnologia6 {
     background-color: #c4c4c4;
+    background-image: url(img/radio\ irl.jpeg);
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
     width: 220px;
     height: 220px;
     border-radius: 20px;
@@ -109,12 +119,27 @@ p {
 }
 
 .p3 {
-    margin-left: 100px;
+    color: #0065ff;
+    margin-left: 45px;
+    border-radius: 50px;
 }
 
 .p4 {
     color: #0065ff;
     margin-left: 60px;
+    border-radius: 50px;
+}
+
+.p5 {
+    color: #c4c4c4;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+
+.p6 {
+    color: #c4c4c4;
+    margin-left: 40px;
+    border-radius: 40px;
 }
 
 .quadrados1 :hover {

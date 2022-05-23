@@ -1,0 +1,93 @@
+body {
+    background-image: url(img/apertureBackgroundRoom.jpeg);
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.corpo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding: 10%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 0, 0, 0, 0.18 );
+}
+
+.logolink {
+    padding: 20px;
+}
+
+.logoimg {
+    background-image: url(img/apertureAntiga.png);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5e0000;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.641);
+    width: 40%;
+}
+
+.card .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+
+}
+
+.card .inputs input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    border: 0;
+    padding: 5px;
+    margin-bottom: 15px;
+    opacity: 85%;
+}
+
+.card button {
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.card .botoes :hover {
+    color: #ff5d00;
+    background-color: #7b391259;
+    width: 120px;
+    transition: 300ms;
+}
+
+.pCadastro {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 235px;
+}
+
+.pCadastro :hover {
+    color: #ff5d00;
+    transition: 300ms;
+}
+
+.pCadastro a {
+    text-decoration: none;
+    color: white;
+}
