@@ -23,16 +23,19 @@ button {
     color: rgb(23, 23, 23);
 }
 
-.header .abas :hover {
-    color: #0065ff;
-    transition: 300ms;
-}
-
 .abas {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
+}
+
+.abas a  {
+    transition: 300ms;
+}
+
+.header .abas :hover {
+    color: #0065ff;
 }
 
 .abas ul {
@@ -50,9 +53,12 @@ button {
     background-size: 200px;
 }
 
+.logoimg {
+    transition: 300ms;
+}
+
 .logolink :hover {
     background-image: url(img/ApertureLaboratoriesAzul.png);
     background-position-x: center;
     background-position-y: center;
-    transition: 100ms;
 }

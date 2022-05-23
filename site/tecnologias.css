@@ -33,6 +33,7 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
+    transition: 400ms;
 }
 
 .tecnologia2 {
@@ -44,6 +45,7 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
+    transition: 400ms;
 }
 
 .tecnologia3 {
@@ -55,6 +57,7 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
+    transition: 400ms;
 }
 
 .tecnologia4 {
@@ -66,6 +69,7 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
+    transition: 400ms;
 }
 
 .tecnologia5 {
@@ -77,6 +81,7 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
+    transition: 400ms;
 }
 
 .tecnologia6 {
@@ -88,6 +93,7 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
+    transition: 400ms;
 }
 
 p {
@@ -144,14 +150,12 @@ p {
 
 .quadrados1 :hover {
     color: wheat;
-    transition: 400ms;
     border-radius: 50px;
     margin-bottom: 3%;
 }
 
 .quadrados2 :hover {
     color: wheat;
-    transition: 400ms;
     border-radius: 50px;
     margin-bottom: 3%;
 }

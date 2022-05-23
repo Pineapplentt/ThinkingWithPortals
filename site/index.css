@@ -25,3 +25,8 @@
     width: 35%;
     height: 17vw;
 }
+
+.segundaParte {
+    display: flex;
+    justify-content: center;
+}
