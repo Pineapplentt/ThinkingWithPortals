@@ -71,7 +71,7 @@ body {
 }
 
 .card .botoes :hover {
-    color: #ff5d00;
+    color: var(--laranja);
     background-color: #7b391259;
     width: 120px;
 }
