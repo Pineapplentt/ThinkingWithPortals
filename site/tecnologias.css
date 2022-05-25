@@ -25,7 +25,6 @@
 }
 
 .tecnologia1 {
-    background-color: #c4c4c4;
     background-image: url(img/weightedCubeIrl.jpeg);
     background-size: 350px;
     background-position-x: left;
@@ -33,11 +32,10 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
-    transition: 400ms;
+    transition: 700ms;
 }
 
 .tecnologia2 {
-    background-color: #c4c4c4;
     background-image: url(img/companionCubeRender.jpg);
     background-size: 450px;
     background-position-x: center;
@@ -45,11 +43,10 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
-    transition: 400ms;
+    transition: 700ms;
 }
 
 .tecnologia3 {
-    background-color: #c4c4c4;
     background-image: url(img/painel1.jpg);
     background-size: 175%;
     background-position-x: 60%;
@@ -57,11 +54,10 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
-    transition: 400ms;
+    transition: 700ms;
 }
 
 .tecnologia4 {
-    background-color: #c4c4c4;
     background-image: url(img/portal\ gun\ 2.jpeg);
     background-size: 310px;
     background-position-x: right;
@@ -69,11 +65,10 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
-    transition: 400ms;
+    transition: 700ms;
 }
 
 .tecnologia5 {
-    background-color: #c4c4c4;
     background-image: url(img/turret.jpg);
     background-size: 100%;
     background-position-x: center;
@@ -81,11 +76,10 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
-    transition: 400ms;
+    transition: 700ms;
 }
 
 .tecnologia6 {
-    background-color: #c4c4c4;
     background-image: url(img/radio\ irl.jpeg);
     background-size: 100%;
     background-position-x: center;
@@ -93,7 +87,7 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
-    transition: 400ms;
+    transition: 700ms;
 }
 
 p {
@@ -152,10 +146,12 @@ p {
     color: wheat;
     border-radius: 50px;
     margin-bottom: 3%;
+    box-shadow: 0 0 50px 0 rgba(84, 84, 84, 0.501);
 }
 
 .quadrados2 :hover {
     color: wheat;
     border-radius: 50px;
     margin-bottom: 3%;
+    box-shadow: 0 0 50px 0 rgba(84, 84, 84, 0.501);
 }
