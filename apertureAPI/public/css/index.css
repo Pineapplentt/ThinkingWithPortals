@@ -32,7 +32,6 @@
 
 .texto .spanTexto :hover {
     color: var(--azul);
-    border-bottom: solid 1px;
 }
 
 .primeiraParte .imgLogos {
@@ -56,7 +55,7 @@
 }
 
 .corpo .imgLocal {
-    background-image: url(../assets/imgs/apertureLocal.jpg);
+    background-image: url(../assets/imgs/apertureLocal.jpeg);
     background-size: 100%;
     background-position: center;
     width: 45%;
@@ -96,4 +95,19 @@
     width: 45%;
     height: 19vw;
     border-radius: 8px;
+}
+
+.quartaParte {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    background-color: var(--cinzaEscuro);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.quartaParte .videoGeral video{
+    width: 90%;
 }

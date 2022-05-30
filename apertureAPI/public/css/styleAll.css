@@ -1,3 +1,7 @@
+
+/* Sombra em PNG
+filter: drop-shadow(0 0 3px var(--azulClaro)); */
+
 :root {
     --azul: #0065ff;
     --laranja: #ff5d00;
@@ -12,12 +16,10 @@
     width: 7px;
   }
   
-  /* Track */
   ::-webkit-scrollbar-track {
     background: var(--fundo);
   }
   
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: grey;
     border-radius: 3px;
@@ -49,7 +51,7 @@ button {
     height: 65px;
     margin-bottom: 100px;
     margin-top: 20px;
-    border-radius: 100px;
+    border-radius: 10px;
     background-color: var(--cinzaEscuro);
     box-shadow: 0 0 70px 0 rgb(176, 176, 176); 
 }
@@ -58,6 +60,7 @@ button {
     display: flex;
     width: 5%;
     height: 100%;
+    opacity: 75%;
 }
 
 .header .cor1 {
@@ -65,6 +68,7 @@ button {
     width: 15px;
     height: 100%;
     border: 0;
+    box-shadow: -3px 0 10px 0 var(--azul);
 }
 
 .header .cor2 {
@@ -72,6 +76,7 @@ button {
     width: 15px;
     height: 100%;
     border: 0;
+    box-shadow: 0 0 10px 0 var(--azulClaro);
 }
 
 .header .cor3 {
@@ -79,6 +84,7 @@ button {
     width: 15px;
     height: 100%;
     border: 0;
+    box-shadow: 3px 0 10px 0 var(--laranja);
 }
 
 .header img {

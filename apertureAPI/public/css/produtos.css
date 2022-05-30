@@ -1,0 +1,30 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo .foto1 {
+    background-image: url(../assets/imgs/portal\ gun\ orange.jpg);
+    background-position-y: center;
+    background-position-x: center;
+    height: 190px;
+    width: 100%;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.meio {
+    display: flex;
+    justify-content: space-around;
+}
