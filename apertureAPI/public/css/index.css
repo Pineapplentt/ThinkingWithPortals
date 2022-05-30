@@ -3,30 +3,97 @@
     flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 100px;
+    border-radius: 8px;
 }
 
 .corpo .primeiraParte {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: justify;
+    background-color: var(--cinzaEscuro);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
 }
 
-.corpo .texto {
+.texto {
     width: 50%;
     margin-right: 100px;
+    padding: 30px;
 }
 
-.corpo .imgLogos {
+.texto .spanTexto a {
+    text-decoration: none;
+    color: var(--laranja);
+    transition: 300ms;
+}
+
+.texto .spanTexto :hover {
+    color: var(--azul);
+    border-bottom: solid 1px;
+}
+
+.primeiraParte .imgLogos {
     background-image: url(../assets/imgs/LogosAperture.png);
     background-size: 100%;
     background-position: center;
-    width: 35%;
-    height: 17vw;
+    width: 45%;
+    height: 20vw;
+    border-radius: 8px;
 }
 
 .segundaParte {
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    background-color: var(--cinzaEscuro);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.corpo .imgLocal {
+    background-image: url(../assets/imgs/apertureLocal.jpg);
+    background-size: 100%;
+    background-position: center;
+    width: 45%;
+    height: 19vw;
+    border-radius: 8px;
+}
+
+.segundaParte .texto {
+    margin: 0;
+    flex-direction: column;
+    text-align: right;
+}
+
+.segundaParte .texto h2 {
+    text-align: end;
+}
+
+.terceiraParte {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    background-color: var(--cinzaEscuro);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.terceiraParte .texto {
+    margin: 0;
+}
+
+.terceiraParte .portalGunBp {
+    background-image: url(../assets/imgs/portalGunBp3.jpeg);
+    background-size: 100%;
+    background-position: center;
+    width: 45%;
+    height: 19vw;
+    border-radius: 8px;
 }
