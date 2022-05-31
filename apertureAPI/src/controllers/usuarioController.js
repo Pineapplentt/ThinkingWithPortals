@@ -62,21 +62,27 @@ function entrar(req, res) {
 
 function cadastrar(req, res) {
     // Crie uma variável que vá recuperar os valores do arquivo cadastro.html
-    var idUser = req.body.idServer;
+    var id = req.body.idServer;
     var nome = req.body.nomeServer;
+    var idade = req.body.idadeServer;
+    var cidade = req.body.cidadeServer;
     var senha = req.body.senhaServer;
 
     // Faça as validações dos valores
-    if (idUser == undefined) {
+    if (id == undefined) {
         res.status(400).send("Seu nome não está definido");
     } else if (nome == undefined) {
         res.status(400).send("Seu email não está definido");
+    } else if (idade == undefined) {
+        res.status(400).send("Sua idade não está definida");
+    } else if (cidade == undefined) {
+        res.status(400).send("Seu cidade não está definida");
     } else if (senha == undefined) {
         res.status(400).send("Sua senha não está definida");
     } else {
         
         // Passe os valores como parâmetro e vá para o arquivo usuarioModel.js
-        usuarioModel.cadastrar(idUser, nome, senha)
+        usuarioModel.cadastrar(id, nome, idade, cidade, senha)
             .then(
                 function (resultado) {
                     res.json(resultado);
