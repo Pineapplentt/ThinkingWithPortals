@@ -12,7 +12,7 @@
     <title>Aperture | Home</title>
 </head>
 
-<body>
+<body onload="apertureAudio()">
     <div class="alignHeader">
         <div class="header">
             <div class="logolink">
@@ -108,5 +108,12 @@
     </div>
 
 </body>
+
+<script>
+    function apertureAudio() {
+        var audioElement = new Audio('assets/vid/ApertureScienceRingtone.mp3');
+        audioElement.play()
+    }
+</script>
 
 </html>
