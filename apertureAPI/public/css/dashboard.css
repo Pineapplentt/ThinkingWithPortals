@@ -26,11 +26,43 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: aqua;
 }
+
+.headerDash .cores {
+    display: flex;
+    width: 5%;
+    height: 100px;
+    opacity: 75%;
+}
+
+.headerDash .cor1 {
+    background-color: var(--azul);
+    width: 15px;
+    height: 100%;
+    border: 0;
+    box-shadow: -3px 0 10px 0 var(--azul);
+}
+
+.headerDash .cor2 {
+    background-color: var(--azulClaro);
+    width: 15px;
+    height: 100%;
+    border: 0;
+    box-shadow: 0 0 10px 0 var(--azulClaro);
+}
+
+.headerDash .cor3 {
+    background-color: var(--laranja);
+    width: 15px;
+    height: 100%;
+    border: 0;
+    box-shadow: 3px 0 10px 0 var(--laranja);
+}
+
 
 .corpo {
     display: flex;
