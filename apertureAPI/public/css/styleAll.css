@@ -129,7 +129,7 @@ button {
 }
 
 .logoimg {
-    background-image: url(../assets/imgs/Aperture_Laboratories_Logo.png);
+    background-image: url(../assets/imgs/icon/Aperture_Laboratories_Logo.png);
     height: 50px;
     width: 200px;
     background-size: 200px;
@@ -140,7 +140,7 @@ button {
 }
 
 .logolink :hover {
-    background-image: url(../assets/imgs/ApertureLaboratoriesAzul.png);
+    background-image: url(../assets/imgs/icon/ApertureLaboratoriesAzul.png);
     background-position-x: center;
     background-position-y: center;
 }
@@ -154,7 +154,7 @@ button {
 }
 
 .footer .logoimg {
-    background-image: url(../assets/imgs/apertureLogoGrey.png);
+    background-image: url(../assets/imgs/icon/apertureLogoGrey.png);
     height: 50px;
     width: 50px;
     background-size: 50px;
@@ -197,7 +197,7 @@ button {
 }
 
 .footer .imgGit {
-    background-image: url(../assets/imgs/gitIconGrey.jpg);
+    background-image: url(../assets/imgs/icon/gitIconGrey.jpg);
     height: 40px;
     width: 40px;
     background-size: 40px;
@@ -205,7 +205,7 @@ button {
 }
 
 .footer .logolink :hover {
-    background-image: url(../assets/imgs/apertureLogo.png);
+    background-image: url(../assets/imgs/icon/apertureLogo.png);
     background-position-x: center;
     background-position-y: center;
 }
@@ -215,5 +215,5 @@ button {
 }
 
 .footer .git :hover {
-    background-image: url(../assets/imgs/gitIcon.png);
+    background-image: url(../assets/imgs/icon/gitIcon.png);
 }

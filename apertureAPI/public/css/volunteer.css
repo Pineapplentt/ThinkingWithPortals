@@ -15,6 +15,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 p {
@@ -28,8 +29,20 @@ p {
     justify-content: space-evenly;
 }
 
+.pti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pti img {
+    filter: drop-shadow(0 0 4px var(--preto));
+    opacity: 80%;
+}
+
 .opcoes .voluntario {
-    background-image: url(../assets/imgs/apertureLoading1.gif);
+    background-image: url(../assets/imgs/icon/apertureLoading1.gif);
     background-size: 150%;
     background-position-x: center;
     background-position-y: center;
@@ -45,7 +58,7 @@ p {
 }
 
 .opcoes .naoVoluntario {
-    background-image: url(../assets/imgs/apertureLoading\ 2.gif);
+    background-image: url(../assets/imgs/icon/apertureLoading\ 2.gif);
     background-size: 130%;
     background-position-x: center;
     background-position-y: center;

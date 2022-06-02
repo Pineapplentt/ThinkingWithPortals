@@ -20,7 +20,7 @@
 
 .texto {
     width: 50%;
-    margin-right: 100px;
+    margin-right: 50px;
     padding: 30px;
 }
 
@@ -34,8 +34,8 @@
     color: var(--azul);
 }
 
-.primeiraParte .imgLogos {
-    background-image: url(../assets/imgs/LogosAperture.png);
+.primeiraParte .imgBendyButton {
+    background-image: url(../assets/imgs/centerpiece.png);
     background-size: 100%;
     background-position: center;
     width: 45%;
@@ -89,7 +89,7 @@
 }
 
 .terceiraParte .portalGunBp {
-    background-image: url(../assets/imgs/portalGunBp3.jpeg);
+    background-image: url(../assets/imgs/portalGun/portalGunBp3.jpeg);
     background-size: 100%;
     background-position: center;
     width: 45%;
@@ -110,4 +110,5 @@
 
 .quartaParte .videoGeral video{
     width: 90%;
+    border-radius: 10px;
 }

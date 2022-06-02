@@ -48,6 +48,10 @@
     padding: 10px;
 }
 
+.produto .descricao .informacoes .secao3 {
+    padding: 10px;
+}
+
 .produto .descricao .especificacoes .secao1 {
     padding: 10px;
 }
@@ -100,6 +104,22 @@
 
 .meio .texto3 {
     padding: 10px;
+}
+
+.meio .texto4 {
+    padding: 10px;
+}
+
+.meio .video {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio .video video{
+    width: 90%;
+    border-radius: 10px;
 }
 
 /* Galeria */
