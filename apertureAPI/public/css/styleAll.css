@@ -9,7 +9,8 @@ filter: drop-shadow(0 0 3px var(--azulClaro)); */
     --preto: rgb(23, 23, 23);
     --fundo: #e5e5e5;
     --cinzaEscuro: #d1d1d182;
-    --shadow: 0 0px 70px 0 grey;
+    --shadow: 0 0 70px 0 grey;
+    --shadowClara: 0 0 70px 0 rgb(176, 176, 176);
 }
 
 ::-webkit-scrollbar {
@@ -53,7 +54,7 @@ button {
     margin-top: 20px;
     border-radius: 10px;
     background-color: var(--cinzaEscuro);
-    box-shadow: 0 0 70px 0 rgb(176, 176, 176); 
+    box-shadow: var(--shadowClara); 
 }
 
 .header .cores {

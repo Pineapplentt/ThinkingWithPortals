@@ -1,30 +1,222 @@
 .corpo {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: var(--cinzaEscuro);
+    box-shadow: var(--shadowClara);
+    border-radius: 8px;
 }
 
-.topo {
+.produto {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: var(--shadow);
+    padding: 10px;
 }
 
-.topo .foto1 {
-    background-image: url(../assets/imgs/portal\ gun\ orange.jpg);
-    background-position-y: center;
-    background-position-x: center;
-    height: 190px;
+.produto img {
+    height: 100%;
     width: 100%;
-    background-size: 100%;
     border-radius: 10px;
+}
+
+.produto .titulo {
+    display: flex;
+    font-size: 110%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.produto .descricao {
+    border-top: solid 1px;
+    width: 100%;
+}
+
+.produto .descricao span {
+    font-weight: 700;
+}
+
+.produto .descricao .informacoes .secao1 {
+    padding: 10px;
+}
+
+.produto .descricao .informacoes .secao2 {
+    padding: 10px;
+}
+
+.produto .descricao .especificacoes .secao1 {
+    padding: 10px;
+}
+
+.produto .descricao .especificacoes .secao2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.produto .descricao .especificacoes .secao2 .um {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.produto .descricao .especificacoes .secao2 .dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
 }
 
 .meio {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: justify;
+    padding: 30px;
 }
+
+.meio .textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.meio .texto1 {
+    padding: 10px;
+}
+
+.meio .texto2 {
+    padding: 10px;
+}
+
+.meio .texto3 {
+    padding: 10px;
+}
+
+/* Galeria */
+
+.corpo2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color: var(--cinzaEscuro);
+    box-shadow: var(--shadowClara);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.titulo {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .imgs1 */
+
+.corpo2 .imgs1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 6px;
+}
+
+.corpo2 .imgs1 .img1 {
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+.corpo2 .imgs1 img {
+    width: 90%;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+    /* Sombreamento Hover imgs1 */
+
+    .corpo2 .imgs1 .img1 :hover{
+        box-shadow: var(--shadow);
+    }
+
+    .corpo2 .imgs1 .img2 :hover{
+        box-shadow: var(--shadow);
+    }
+
+    .corpo2 .imgs1 .img3 :hover{
+        box-shadow: var(--shadow);
+    }
+
+    /* fim .imgs1 */
+
+    /* .imgs2 */
+
+.corpo2 .imgs2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo2 .imgs2 img {
+    width: 80%;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+ /* Sombreamento Hover imgs2 */
+
+ .corpo2 .imgs2 .img1 :hover{
+    box-shadow: var(--shadow);
+}
+
+.corpo2 .imgs2 .img2 :hover{
+    box-shadow: var(--shadow);
+}
+
+.corpo2 .imgs2 .img3 :hover{
+    box-shadow: var(--shadow);
+}
+
+/* .imgs3 */
+
+.corpo2 .imgs3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo2 .imgs3 img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+    /* Sombreamento Hover imgs3 */
+
+    .corpo2 .imgs3 .img1 :hover{
+        box-shadow: var(--shadow);
+    }
+
+    .corpo2 .imgs3 .img2 :hover{
+        box-shadow: var(--shadow);
+    }
+
+    .corpo2 .imgs3 .img3 :hover{
+        box-shadow: var(--shadow);
+    }
+
+    /* fim .imgs3 */
+
+    .imgs1 {
+        width: 100%;
+    }
