@@ -1,55 +1,292 @@
 .titulo {
-    font-size: 130%;
+    font-size: 140%;
+    opacity: 50%;
 }
 
-.corpo {
+.quebra {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quebra img {
+    width: 2%;
+}
+
+span {
+    display: flex;
+    margin-bottom: -10px;
+    font-weight: 900;
+}
+
+.secao1-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.secao1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
     background-color: var(--cinzaEscuro);
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
+    width: 60%;
+    font-size: 1vw;
+    box-shadow: var(--shadowClara);
 }
 
-.textos {
+.secao1 .textos {
     display: flex;
     flex-direction: column;
-    width: 50%;
-}
-
-.corpo .img {
-    width: 50%;
-    height: 100%;
-}
-
-.corpo .img img {
     width: 100%;
 }
 
-.corpo .parte1 {
+.imgAtlas img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: var(--shadowClara);
+}
+
+.imgInfo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.imgInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgInfo .info {
+    margin-top: 10px;
+    text-align: center;
+    background-color: var(--cinzaEscuro);
+    box-shadow: var(--shadowClara);
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+.imgInfo .info img {
+    width: 3%;
+}
+
+.secao1 .parte1 {
     font-weight: 1000;
-    font-size: 300%;
+    font-size: 250%;
     padding-bottom: 20px;
 }
 
-.corpo .parte2 {
+.secao1 .parte2 {
     text-align: justify;
+    font-size: 110%;
 }
 
-.corpo2 {
+.secao2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: brown;
-    padding: 20px;
+    background-color: #e8ca9e;
+    padding: 40px;
     border-radius: 10px;
+    box-shadow: var(--shadowClara);
 }
 
-.corpo2 span {
-    font-weight: 900;
+.secao2 .img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.secao2 .img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.secao2 .textos {
+    width: 500%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.secao2 .parte1 {
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.secao3-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.secao3 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #cbc4a0;
+    box-shadow: var(--shadowClara);
+    border-radius: 8px;
+    width: 65%;
+}
+
+.secao3 .textos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    padding: 30px;
+}
+
+.secao3 .titulo {
+    font-size: 120%;
+}
+
+.secao4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.secao4 .img img {
+    width: 100%;
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+}
+
+.secao5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: var(--cinzaEscuro);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: var(--shadowClara);
+}
+
+.secao5 .img {
+    width: 70%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.secao5 .img img {
+    width: 100%;
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+}
+
+.secao5 .textos {
+    text-align: justify;
+    width: 70%;
+}
+.secao5 .textos .titulo {
+    padding: 10px;
+}
+
+.secao5 .textos .parte1 {
+    padding: 20px;
+}
+
+.secao5 .textos .parte2 {
+    padding: 20px;
+}
+
+.logoQuebra {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoQuebra img {
+    width: 40%;
+    border-radius: 50px;
+}
+
+.secao6-7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.secao6 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url(../assets/imgs/texturaPapelAzul2.jpg);
+    background-size: 120%;
+    box-shadow: var(--shadowClara);
+    border-radius: 8px;
+    width: 65%;
+}
+
+.secao6 .textos {
+    margin-top: 20%;
+    padding: 30px;
+    background-color: #e8ca9e;
+    box-shadow: var(--shadow);
+    border-radius: 4px;
+}
+
+.secao7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.secao7 .img img {
+    width: 100%;
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+}
+
+.secao8 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: var(--shadowClara);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.secao9 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: var(--shadowClara);
+    border-radius: 10px;
 }

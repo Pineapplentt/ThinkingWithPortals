@@ -26,6 +26,10 @@ filter: drop-shadow(0 0 3px var(--azulClaro)); */
     border-radius: 3px;
   }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--fundo);
     margin: 0;
@@ -86,6 +90,23 @@ button {
     height: 100%;
     border: 0;
     box-shadow: 3px 0 10px 0 var(--laranja);
+}
+
+.header .cores .cor1 {
+    transition: 400ms;
+}
+
+.header .cores .cor2 {
+    transition: 400ms;
+}
+
+.header .cores .cor3 {
+    transition: 400ms;
+}
+
+.header .cores :hover {
+    height: 40%;
+    margin-top: 20px;
 }
 
 .header img {

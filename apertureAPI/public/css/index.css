@@ -18,9 +18,13 @@
     box-shadow: var(--shadow);
 }
 
+.corpo .primeiraParte .texto h2 {
+    text-align: left;
+    font-size: 200%;
+}
+
 .texto {
     width: 50%;
-    margin-right: 50px;
     padding: 30px;
 }
 
@@ -41,6 +45,7 @@
     width: 45%;
     height: 20vw;
     border-radius: 8px;
+    padding: 20px;
 }
 
 .segundaParte {
@@ -84,6 +89,10 @@
     box-shadow: var(--shadow);
 }
 
+.corpo .terceiraParte .texto h2 {
+    text-align: left;
+}
+
 .terceiraParte .texto {
     margin: 0;
 }
@@ -111,4 +120,8 @@
 .quartaParte .videoGeral video{
     width: 90%;
     border-radius: 10px;
+}
+
+.corpo .quartaParte .texto h2 {
+    text-align: right;
 }
