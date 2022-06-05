@@ -62,6 +62,9 @@
         var cidadeVar = input_cidade.value;
         var senhaVar = input_senha.value;
         var confirmacaoSenhaVar = input_confSenha.value;
+        var data_testeVar = '15 de Junho de 2022';
+        var desempenhoVar = `${parseInt(Math.random()*900)+100}`;
+        var chamberVar = `${parseInt(Math.random()*5)+1}`;
 
         if (idVar == "" || nomeVar == "" || idadeVar == "" || cidadeVar == "" || senhaVar == "" || confirmacaoSenhaVar == "") {
             cardErro.style.display = "block"
@@ -96,8 +99,10 @@
                 nomeServer: nomeVar,
                 idadeServer: idadeVar,
                 cidadeServer: cidadeVar,
-                senhaServer: senhaVar
-
+                senhaServer: senhaVar,
+                data_testeServer: data_testeVar,
+                desempenhoServer: desempenhoVar,
+                chamberServer: chamberVar
             })
         }).then(function (resposta) {
 
@@ -128,5 +133,4 @@
     function sumirMensagem() {
         cardErro.style.display = "none"
     }
-
 </script>

@@ -1,83 +1,68 @@
 body {
-	background: linear-gradient( 30deg, var(--fundo), #fff, rgb(158, 158, 158));
-	background-size: 400% 400%;
-	animation: gradient 30s ease infinite;
-	height: 100vh;
+    background-image: url(../assets/imgs/apertureBackground.jpeg);
+    background-size: 140%;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+.headerDash {
+    position: fixed;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    margin-right: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 4px );
 }
 
-.alignHeader {
+.align {
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.infosUser {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+.infosUser .infosPrincipal {
     display: flex;
     flex-direction: column;
 }
 
-.headerDash {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: aqua;
-}
-
-.headerDash .cores {
-    display: flex;
-    width: 5%;
-    height: 100px;
-    opacity: 75%;
-}
-
-.headerDash .cor1 {
-    background-color: var(--azul);
-    width: 15px;
-    height: 100%;
-    border: 0;
-    box-shadow: -3px 0 10px 0 var(--azul);
-}
-
-.headerDash .cor2 {
-    background-color: var(--azulClaro);
-    width: 15px;
-    height: 100%;
-    border: 0;
-    box-shadow: 0 0 10px 0 var(--azulClaro);
-}
-
-.headerDash .cor3 {
-    background-color: var(--laranja);
-    width: 15px;
-    height: 100%;
-    border: 0;
-    box-shadow: 3px 0 10px 0 var(--laranja);
-}
-
-
 .corpo {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80%;
-    background-color: aqua;
+    height: 100%;
+    margin-left: 30%;
 }
 
 .testes {
     display: flex;
     justify-content: space-evenly;
     background-color: black;
-    width: 80%;
+    width: 85%;
     height: 80%;
 }
 
@@ -105,4 +90,12 @@ body {
     width: 30%;
     height: 40%;
     background-color: burlywood;
+}
+.footer {
+    justify-content: right;
+    margin-left: 30%;
+}
+
+.footer .abasFooter {
+    width: 80%;
 }

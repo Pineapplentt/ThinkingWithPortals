@@ -1,12 +1,47 @@
+body {
+    background-image: url(../assets/imgs/sofaLightning.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+.header {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 0, 0, 0, 0.18 );
+}
+
+.header .logoimg {
+    background-image: url(../assets/imgs/icon/apertureAntiga.png);
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px var(--preto));
+}
+
+.header .logolink :hover {
+    background-image: url(../assets/imgs/icon/ApertureLaboratoriesAzul.png);
+}
+
 .corpo {
     display: flex;
     flex-direction: column;
     margin-left: 20%;
     margin-right: 20%;
     justify-content: space-between;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 0, 0, 0, 0.18 );
 }
 
-a {
+.corpo a {
     width: 35%;
 }
 
@@ -22,12 +57,23 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
+    transition: 300ms;
 }
 
 .opcoes {
     display: flex;
     justify-content: space-evenly;
 }
+
+.opcoes .a1 :hover  {
+    color: var(--laranja);
+}
+
+.opcoes .a2 :hover  {
+    color: var(--azul);
+}
+
 
 .pti {
     display: flex;
@@ -42,14 +88,15 @@ p {
 }
 
 .opcoes .voluntario {
-    background-image: url(../assets/imgs/icon/apertureLoading1.gif);
-    background-size: 150%;
+    background-image: url(../assets/imgs/portalGun/portal1.jpg);
+    background-size: 100%;
     background-position-x: center;
     background-position-y: center;
     width: 100%;
     height: 19vw;
     border-radius: 20px;
     justify-content: center;
+    transition: 400ms;
 }
 
 .opcoes a {
@@ -57,16 +104,29 @@ p {
     color: black;
 }
 
+.opcoes a :hover {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
 .opcoes .naoVoluntario {
-    background-image: url(../assets/imgs/icon/apertureLoading\ 2.gif);
-    background-size: 130%;
+    background-image: url(../assets/imgs/testChamber.jpg);
+    background-size: 100%;
     background-position-x: center;
     background-position-y: center;
     width: 100%;
     height: 19vw;
     border-radius: 20px;
+    transition: 400ms;
 }
 
 .footer {
     margin-top: 150px;
+}
+
+.footer a {
+    color: var(--fundo);
+}
+
+.footer .creditos {
+    color: var(--fundo)
 }

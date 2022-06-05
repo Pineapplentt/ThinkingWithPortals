@@ -67,6 +67,9 @@ function cadastrar(req, res) {
     var idade = req.body.idadeServer;
     var cidade = req.body.cidadeServer;
     var senha = req.body.senhaServer;
+    var dataTeste = req.body.data_testeServer;
+    var desempenho = req.body.desempenhoServer;
+    var chamber = req.body.chamberServer
 
     // Faça as validações dos valores
     if (id == undefined) {
@@ -79,10 +82,16 @@ function cadastrar(req, res) {
         res.status(400).send("Seu cidade não está definida");
     } else if (senha == undefined) {
         res.status(400).send("Sua senha não está definida");
+    } else if (dataTeste == undefined) {
+        res.status(400).send("Sua data não está definida");
+    } else if (desempenho == undefined) {
+        res.status(400).send("Seu desempenho não está definido");
+    } else if (chamber == undefined) {
+        res.status(400).send("Sua chamber não está definida");
     } else {
         
         // Passe os valores como parâmetro e vá para o arquivo usuarioModel.js
-        usuarioModel.cadastrar(id, nome, idade, cidade, senha)
+        usuarioModel.cadastrar(id, nome, idade, cidade, senha, dataTeste, desempenho, chamber)
             .then(
                 function (resultado) {
                     res.json(resultado);

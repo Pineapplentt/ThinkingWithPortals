@@ -1,31 +1,33 @@
 create database Aperture;
 use Aperture;
 
+create table TestChamber (
+	idChamber int primary key,
+    setor int,
+    dificuldadeChamber varchar(10)
+    );
+
 create table TestSubject (
 	subjectID int primary key,
     subjectNome varchar(50),
     subjectIdade int,
     subjectCidade varchar(50),
-	subjectSenha VARCHAR(50)
+	subjectSenha VARCHAR(50),
+    dataTeste varchar(30),
+    desempenhoGeral int,
+    fkChamber int,
+    foreign key (fkChamber) references TestChamber (idChamber)
     );
     
-create table TestChamber (
-	idChamber int primary key,
-    nomeChamber varchar(50),
-    nivelChamber varchar(50),
-    dificuldadeChamber varchar(50)
-    );
+insert into TestChamber values 
+	(1, 7, 'Alta'),
+	(2, 4, 'Média'),
+	(3, 2, 'Alta'),
+	(4, 9, 'Baixa'),
+	(5, 9, 'Baixa');
     
-create table Test (
-    fkSubject int,
-	fkChamber int,
-    foreign key (fkSubject) references TestSubject (subjectID),
-    foreign key (fkChamber) references TestChamber (idChamber),
-    DataHora datetime,
-    desempenhoGeralSubject varchar(50),
-    resistenciaTeste decimal(3,2)
-    );
-
 select * from TestSubject;
+select * from TestChamber;
+
 
 -- drop database Aperture;

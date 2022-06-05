@@ -9,32 +9,52 @@
     <link rel="stylesheet" href="css/dashboard.css">
     <link rel="shortcut icon" href="assets/imgs/icon/apertureLogo.png" type="image/x-icon">
 
-    <title>Aperture | Home</title>
+    <title>Aperture | Dashboard</title>
 </head>
 
 <body>
-    <div class="headerDash">
-        <div class="logolink">
-            <a href="index.html">
-                <div class="logoimg"></div>
-            </a>
-        </div>
-        <i>Perpetual Testing Initiative</i> 
-        <div class="cores">
-            <div class="cor1"></div>
-            <div class="cor2"></div>
-            <div class="cor3"></div>
+    <div class="alignHeader">
+        <div class="headerDash">
+            <div class="logolink">
+                <a href="index.html">
+                    <div class="logoimg"></div>
+                </a>
+            </div>
         </div>
     </div>
 
-    <div class="corpo">
-        <div class="testes">
-            <div class="teste1"></div>
-            <div class="teste2"></div>
-            <div class="teste3"></div>
+    <div class="align">
+        <div class="infosUser">
+            <div class="imgUser"></div>
+            <div class="texto">
+                <h2>Seja bem vindo(a)</h2>
+                <div class="infosPrincipal">
+                    <span>Nome: xxxxx</span>
+                    <span>ID: xxxxx</span>
+                    <span>Idade: xxxxx</span>
+                    <span>Cidade: xxxxx</span>
+                </div>
+            </div>
+        </div>
+        <div class="corpo">
+            <div class="testes">
+                <div class="teste1">
+                    <div class="nomeSubject">aaaa</div>
+                </div>
+                <div class="teste2"></div>
+                <div class="teste3"></div>
+            </div>
+        </div>
+        <div class="corpo">
+            <div class="testes">
+                <div class="teste1">
+                    <div class="nomeSubject">aaaa</div>
+                </div>
+                <div class="teste2"></div>
+                <div class="teste3"></div>
+            </div>
         </div>
     </div>
-
     <div class="footer">
         <div class="logolink">
             <a href="index.html">
@@ -60,6 +80,10 @@
         </div>
     </div>
 
+
+    <script>
+        nomeSubject.innerHTML = sessionStorage.nome_Aperture;
+    </script>
 </body>
 
 </html>

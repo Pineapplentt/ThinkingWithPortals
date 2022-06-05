@@ -1,3 +1,28 @@
+.background1 {
+    background-image: url(../assets/imgs/apertureRuins.jpg);
+    background-position: center;
+    background-size: 100%;
+    padding-bottom: 5%;
+    box-shadow: var(--shadowEscura);
+}
+
+.background2 {
+    background-image: url(../assets/imgs/mesa\ de\ conferencia.jpg);
+    background-position: center;
+    background-size: 100%;
+    box-shadow: var(--shadowEscura);
+}
+
+
+.header {
+    background-color: rgba(255, 255, 255, 0.253);
+    box-shadow: var(--shadowEscura);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 0, 0, 0, 0.18 );
+}
+
 .titulo {
     font-size: 140%;
     opacity: 50%;
@@ -36,12 +61,14 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: var(--cinzaEscuro);
     padding: 40px;
-    border-radius: 10px;
     width: 60%;
     font-size: 1vw;
-    box-shadow: var(--shadowClara);
+    background-color: rgba(255, 255, 255, 0.253);
+    box-shadow: var(--shadowEscura);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
 }
 
 .secao1 .textos {
@@ -70,11 +97,13 @@ span {
 .imgInfo .info {
     margin-top: 10px;
     text-align: center;
-    background-color: var(--cinzaEscuro);
-    box-shadow: var(--shadowClara);
     border-radius: 10px;
     padding: 10px;
     width: 95%;
+    background-color: rgba(255, 255, 255, 0.452);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
 }
 
 .imgInfo .info img {
@@ -102,7 +131,7 @@ span {
     background-color: #e8ca9e;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: var(--shadowClara);
+    box-shadow: var(--shadowEscura);
 }
 
 .secao2 .img {
@@ -140,7 +169,7 @@ span {
     align-items: center;
     margin-top: 50px;
     background-color: #cbc4a0;
-    box-shadow: var(--shadowClara);
+    box-shadow: var(--shadowEscura);
     border-radius: 8px;
     width: 65%;
 }
@@ -167,7 +196,7 @@ span {
 
 .secao4 .img img {
     width: 100%;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadowEscura);
     border-radius: 8px;
 }
 
