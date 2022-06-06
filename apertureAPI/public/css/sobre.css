@@ -375,9 +375,11 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: var(--shadowEscura);
     background-color: var(--fundo);
-    padding: 20px;
     border-radius: 10px;
+    border: 1px solid rgba( 0, 0, 0, 0.18 );
+    padding: 20px;
 }
 
 .secao9 .msg {

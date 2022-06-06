@@ -27,13 +27,15 @@
     align-items: center;
     justify-content: space-between;
     text-align: justify;
-    background-color: var(--cinzaEscuro);
-    backdrop-filter: blur( 10px );    
-    border-radius: 8px;
-    box-shadow: var(--shadow);
     margin-left: 10%;
     margin-right: 10%;
     font-size: 1vw;
+    background-color: rgba(255, 255, 255, 0.253);
+    box-shadow: var(--shadowEscura);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 0, 0, 0, 0.18 );
 }
 
 .primeiraParte .texto h2 {
