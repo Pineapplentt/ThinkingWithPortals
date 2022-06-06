@@ -16,16 +16,19 @@ body {
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 0, 0, 0, 0.18 );
+    height: 80px;
 }
 
 .header .logoimg {
-    background-image: url(../assets/imgs/icon/apertureAntiga.png);
+    background-image: url(../assets/imgs/icon/apertureInnovators.png);
     border-radius: 10px;
     filter: drop-shadow(0 0 10px var(--preto));
+    height: 66px;
 }
 
 .header .logolink :hover {
-    background-image: url(../assets/imgs/icon/ApertureLaboratoriesAzul.png);
+    background-image: url(../assets/imgs/icon/Aperture_Laboratories_Logo.png);
+    height: 50px;
 }
 
 .corpo {

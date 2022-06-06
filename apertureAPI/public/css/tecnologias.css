@@ -73,8 +73,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/imgs/cubes/cubeArt.jpg);
-    background-size: 450px;
+    background-image: url(../assets/imgs/glados/glados7.jpg);
+    background-size: 180%;
     background-position-x: 30%;
     background-position-y: 70%;
     width: 220px;
@@ -129,7 +129,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/imgs/bendypc.jpeg);
+    background-image: url(../assets/imgs/icon/apertureGif.gif);
     background-size: 100%;
     background-position-x: center;
     background-position-y: center;

@@ -29,29 +29,27 @@
             <div class="texto">
                 <h2>Seja bem vindo(a)</h2>
                 <div class="infosPrincipal">
-                    <span>Nome: xxxxx</span>
-                    <span>ID: xxxxx</span>
-                    <span>Idade: xxxxx</span>
-                    <span>Cidade: xxxxx</span>
+                    <span>ID: <span id="idUser"></span></span>
+                    <span>Nome: <span id="nomeUser"></span></span>
+                    <span>Idade: <span id="idadeUser"></span></span>
+                    <span>Cidade: <span id="cidadeUser"></span>
                 </div>
             </div>
         </div>
         <div class="corpo">
-            <div class="testes">
-                <div class="teste1">
-                    <div class="nomeSubject">aaaa</div>
+            <div class="informacoes">
+                <div class="info1">
+                    <h2>Câmara de testes N°</h2>
+                    <span id="chamberUser"></span>
                 </div>
-                <div class="teste2"></div>
-                <div class="teste3"></div>
-            </div>
-        </div>
-        <div class="corpo">
-            <div class="testes">
-                <div class="teste1">
-                    <div class="nomeSubject">aaaa</div>
+                <div class="info2">
+                    <h2>Seu desempenho</h2>
+                    <span id="desempenhoUser"></span>
                 </div>
-                <div class="teste2"></div>
-                <div class="teste3"></div>
+                <div class="info3">
+                    <h2>Dificuldade da Câmara</h2>
+                    <span id="dificuldadeChamber"></span>
+                </div>
             </div>
         </div>
     </div>
@@ -82,7 +80,13 @@
 
 
     <script>
-        nomeSubject.innerHTML = sessionStorage.nome_Aperture;
+          idUser.innerHTML = sessionStorage.id_user;
+          nomeUser.innerHTML = sessionStorage.nome_user;
+          idadeUser.innerHTML = sessionStorage.idade_user;
+          cidadeUser.innerHTML = sessionStorage.cidade_user;
+          desempenhoUser.innerHTML = sessionStorage.desempenho_user;
+          chamberUser.innerHTML = sessionStorage.chamber_user;
+          dificuldadeChamber.innerHTML = sessionStorage.dificuldade_chamber;
     </script>
 </body>
 

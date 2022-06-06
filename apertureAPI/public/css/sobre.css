@@ -11,8 +11,24 @@
     background-position: center;
     background-size: 100%;
     box-shadow: var(--shadowEscura);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 30px;
 }
 
+.background3 {
+    background-image: url(../assets/imgs/apertureBackgroundRoom.jpeg);
+    background-position: center;
+    background-size: 100%;
+    box-shadow: var(--shadowEscura);
+}
+
+.background4 {
+    background-image: url(../assets/imgs/apertureBackgroundColors.jpeg);
+    background-position: center;
+    background-size: 70%;
+    box-shadow: var(--shadowEscura);
+}
 
 .header {
     background-color: rgba(255, 255, 255, 0.253);
@@ -210,8 +226,10 @@ span {
     margin-right: 10%;
     background-color: var(--cinzaEscuro);
     padding: 40px;
-    border-radius: 10px;
-    box-shadow: var(--shadowClara);
+    background-color: rgba(255, 255, 255, 0.253);
+    box-shadow: var(--shadowEscura);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
 }
 
 .secao5 .img {
@@ -222,7 +240,7 @@ span {
 
 .secao5 .img img {
     width: 100%;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadowEscura);
     border-radius: 8px;
 }
 
@@ -247,6 +265,10 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logoQuebra img {
+    box-shadow: var(--shadow);
 }
 
 .logoQuebra img {
@@ -299,23 +321,70 @@ span {
 
 .secao8 {
     display: flex;
-    align-items: center;
     text-align: justify;
     margin-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: var(--shadowClara);
-    border-radius: 10px;
     padding: 30px;
+    background-color: rgba(0, 0, 0, 0.253);
+    box-shadow: var(--shadowEscura);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 0, 0, 0, 0.18 );
+    color: #cbc4a0;
+}
+
+.secao8 .parte1 {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.secao8 .parte2, .secao8 .parte3, .secao8 .parte4, .secao8 .parte5, .secao8 .parte6 {
+    padding: 10px;
+}
+
+.secao8 .img {
+    width: 130%;
+    margin-left: 5%;
+}
+
+.secao8 .img img {
+    width: 100%;
+}
+
+.secao8 .msg {
+    font-weight: 700;
+    margin-left: 10px;
 }
 
 .secao9 {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: var(--shadowClara);
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20%;
+    background-image: url(../assets/imgs/spaceWheatley.gif);
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: var(--shadow);
+}
+
+.secao9 .backColor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--fundo);
+    padding: 20px;
     border-radius: 10px;
+}
+
+.secao9 .msg {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.footer {
+    margin-top: 100px;
 }

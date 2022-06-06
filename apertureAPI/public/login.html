@@ -55,7 +55,7 @@
 
         if (idVar == "" || senhaVar == "") {
             cardErro.style.display = "block"
-            mensagem_erro.innerHTML = "(Mensagem de erro para todos os campos em branco)";
+            mensagem_erro.innerHTML = "Preencha todos os campos";
             finalizarAguardar();
             return false;
         }
@@ -85,8 +85,14 @@
                     console.log(json);
                     console.log(JSON.stringify(json));
 
-                    sessionStorage.NOME_USUARIO = json.nome;
-                    sessionStorage.ID_USUARIO = json.id;
+                    sessionStorage.id_user = json.subjectID;
+                    sessionStorage.nome_user = json.subjectNome;
+                    sessionStorage.idade_user = json.subjectIdade;
+                    sessionStorage.cidade_user = json.subjectCidade;
+                    sessionStorage.data_user = json.dataTeste;
+                    sessionStorage.desempenho_user = json.desempenhoGeral;
+                    sessionStorage.chamber_user = json.fkChamber;
+                    sessionStorage.dificuldade_chamber = json.dificuldadeChamber;
 
                     setTimeout(function () {
                         window.location = "./dashboard.html";

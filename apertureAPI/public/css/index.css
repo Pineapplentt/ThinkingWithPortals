@@ -172,8 +172,9 @@
 }
 
 .quartaParte .texto .botao :hover{
-    height: 100px;
+    height: 80px;
     background-color: var(--azul);
+    box-shadow: var(--shadowEscura);
 }
 
 .footer {

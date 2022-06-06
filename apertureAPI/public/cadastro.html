@@ -28,12 +28,12 @@
                 </div>
             </div>
             <div class="inputs">
-                <input id="input_id" type="text" placeholder="Número de identificação">
-                <input id="input_nome" type="text" placeholder="Nome">
-                <input id="input_idade" type="text" placeholder="Idade">
-                <input id="input_cidade" type="text" placeholder="Cidade">
-                <input id="input_senha" type="password" placeholder="senha">
-                <input id="input_confSenha" type="password" placeholder="confirmação de senha">
+                <input id="input_id" type="text" placeholder="Número de identificação" onkeydown="verificarEnter()">
+                <input id="input_nome" type="text" placeholder="Nome" onkeydown="verificarEnter()">
+                <input id="input_idade" type="text" placeholder="Idade" onkeydown="verificarEnter()">
+                <input id="input_cidade" type="text" placeholder="Cidade" onkeydown="verificarEnter()">
+                <input id="input_senha" type="password" placeholder="senha" onkeydown="verificarEnter()">
+                <input id="input_confSenha" type="password" placeholder="confirmação de senha" onkeydown="verificarEnter()">
             </div>
             <div class="botoes">
                 <button onclick="cadastrar()">cadastrar</button>
@@ -51,6 +51,12 @@
 </html>
 
 <script>
+    function verificarEnter(){
+        if(event.keyCode == 13){
+            cadastrar();
+        }
+    }
+
     function cadastrar() {
         aguardar();
 
@@ -64,11 +70,11 @@
         var confirmacaoSenhaVar = input_confSenha.value;
         var data_testeVar = '15 de Junho de 2022';
         var desempenhoVar = `${parseInt(Math.random()*900)+100}`;
-        var chamberVar = `${parseInt(Math.random()*5)+1}`;
+        var chamberVar = `${parseInt(Math.random()*20)+1}`;
 
         if (idVar == "" || nomeVar == "" || idadeVar == "" || cidadeVar == "" || senhaVar == "" || confirmacaoSenhaVar == "") {
             cardErro.style.display = "block"
-            mensagem_erro.innerHTML = "Existem campos em branco";
+            mensagem_erro.innerHTML = "Preencha todos os campos";
 
             finalizarAguardar();
             return false;
@@ -115,7 +121,7 @@
 
                 setTimeout(() => {
                     window.location = "login.html";
-                }, "2000")
+                }, "0000")
 
                 limparFormulario();
                 finalizarAguardar();
