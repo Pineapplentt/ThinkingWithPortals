@@ -1,3 +1,34 @@
+.galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/imgs/cubesWallpaper.jpg);
+    background-position-y: center;
+    margin-top: 50px;
+    font-size: 150%;
+    font-weight: 900;
+    box-shadow: var(--shadowEscura);
+    padding: 10px;
+}
+
+.galeria .texto {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.galeria .img {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    margin-top: -10px;
+}
+
+.galeria .img img {
+    width: 30%;
+}
+
 .textos a {
     text-decoration: none;
     color: var(--azul);
@@ -143,7 +174,7 @@
     align-items: center;
 }
 
-.meio .video video{
+.meio .video video {
     width: 90%;
     border-radius: 10px;
 }
@@ -176,8 +207,9 @@
 .corpo2 .imgs1 {
     display: flex;
     flex-direction: column;
-    width: auto;
+    justify-content: center;
     padding: 6px;
+    width: 100%;
 }
 
 .corpo2 .imgs1 .img1 {
@@ -186,52 +218,58 @@
 }
 
 .corpo2 .imgs1 img {
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     transition: 400ms;
 }
 
-    /* Sombreamento Hover imgs1 */
+/* Sombreamento Hover imgs1 */
 
-    .corpo2 .imgs1 .img1 :hover{
-        box-shadow: var(--shadow);
-    }
+.corpo2 .imgs1 .img1 :hover {
+    box-shadow: var(--shadowEscura);
+}
 
-    .corpo2 .imgs1 .img2 :hover{
-        box-shadow: var(--shadow);
-    }
+.corpo2 .imgs1 .img2 :hover {
+    box-shadow: var(--shadowEscura);
+}
 
-    .corpo2 .imgs1 .img3 :hover{
-        box-shadow: var(--shadow);
-    }
+.corpo2 .imgs1 .img3 :hover {
+    box-shadow: var(--shadowEscura);
+}
 
-    /* fim .imgs1 */
+.corpo2 .imgs1 .img4 :hover {
+    box-shadow: var(--shadowEscura);
+}
 
-    /* .imgs2 */
+/* fim .imgs1 */
+
+/* .imgs2 */
 
 .corpo2 .imgs2 {
     display: flex;
     flex-direction: column;
+    padding: 6px;
+    width: 100%;
 }
 
 .corpo2 .imgs2 img {
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     transition: 400ms;
 }
 
- /* Sombreamento Hover imgs2 */
+/* Sombreamento Hover imgs2 */
 
- .corpo2 .imgs2 .img1 :hover{
-    box-shadow: var(--shadow);
+.corpo2 .imgs2 .img1 :hover {
+    box-shadow: var(--shadowEscura);
 }
 
-.corpo2 .imgs2 .img2 :hover{
-    box-shadow: var(--shadow);
+.corpo2 .imgs2 .img2 :hover {
+    box-shadow: var(--shadowEscura);
 }
 
-.corpo2 .imgs2 .img3 :hover{
-    box-shadow: var(--shadow);
+.corpo2 .imgs2 .img3 :hover {
+    box-shadow: var(--shadowEscura);
 }
 
 /* .imgs3 */
@@ -239,6 +277,8 @@
 .corpo2 .imgs3 {
     display: flex;
     flex-direction: column;
+    padding: 6px;
+    width: 100%;
 }
 
 .corpo2 .imgs3 img {
@@ -247,22 +287,22 @@
     transition: 400ms;
 }
 
-    /* Sombreamento Hover imgs3 */
+/* Sombreamento Hover imgs3 */
 
-    .corpo2 .imgs3 .img1 :hover{
-        box-shadow: var(--shadow);
-    }
+.corpo2 .imgs3 .img1 :hover {
+    box-shadow: var(--shadowEscura);
+}
 
-    .corpo2 .imgs3 .img2 :hover{
-        box-shadow: var(--shadow);
-    }
+.corpo2 .imgs3 .img2 :hover {
+    box-shadow: var(--shadowEscura);
+}
 
-    .corpo2 .imgs3 .img3 :hover{
-        box-shadow: var(--shadow);
-    }
+.corpo2 .imgs3 .img3 :hover {
+    box-shadow: var(--shadowEscura);
+}
 
-    /* fim .imgs3 */
+.corpo2 .imgs3 .img4 :hover {
+    box-shadow: var(--shadowEscura);
+}
 
-    .imgs1 {
-        width: 100%;
-    }
+/* fim .imgs3 */
