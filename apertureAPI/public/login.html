@@ -35,12 +35,12 @@
                 <button onclick="entrar()">Login</button>
             </div>
             <div id="div_aguardar" class="loading-div">
-                <img src="assets/loadings/circle-loading.gif" id="loading-gif">
+                <img src="assets/imgs/icon/apertureGif2.gif" id="loading-gif">
             </div>
 
             <div id="div_erros_login"></div>
         </div>
-        <p class="pCadastro"><a href="cadastro.html">Ainda não é voluntário?</a></p>
+        <p id="linkCadastro" class="pCadastro"><a href="cadastro.html">Ainda não é voluntário?</a></p>
     </div>
 </body>
 
@@ -99,6 +99,7 @@
                     }, 1000); // apenas para exibir o loading
 
                 });
+                linkCadastro.style.marginTop = "220px";
 
             } else {
 

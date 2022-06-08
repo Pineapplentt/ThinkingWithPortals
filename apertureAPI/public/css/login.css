@@ -89,6 +89,7 @@ body {
 .loading-div {
     width: 50px;
     margin: auto;
+    margin-top: 10px;
     display: none;
 }
 
@@ -99,14 +100,12 @@ body {
 
 .alerta_erro {
     position: absolute;
-    margin-right: 280px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .card_erro {
     display: none;
     color: var(--preto);
-    position: fixed;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);

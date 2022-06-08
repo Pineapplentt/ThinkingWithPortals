@@ -105,14 +105,12 @@ body {
   
   .alerta_erro{
     position: absolute;
-    margin-right: 260px;
-    margin-bottom: 500px;
+    margin-bottom: 400px;
   }
   
   .card_erro {
     display: none;
     color: var(--fundo);
-    position: fixed;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);

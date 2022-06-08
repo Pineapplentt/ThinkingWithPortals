@@ -39,12 +39,12 @@
                 <button onclick="cadastrar()">cadastrar</button>
             </div>
             <div id="div_aguardar" class="loading-div">
-                <img src="assets/loadings/circle-loading.gif" id="loading-gif">
+                <img src="assets/imgs/icon/apertureGif2.gif" id="loading-gif">
             </div>
 
             <div id="div_erros_login"></div>
         </div>
-        <p class="pCadastro"><a href="login.html">Já é voluntário?</a></p>
+        <p id="linkLogin" class="pCadastro"><a href="login.html">Já é voluntário?</a></p>
     </div>
 </body>
 
@@ -68,7 +68,7 @@
         var cidadeVar = input_cidade.value;
         var senhaVar = input_senha.value;
         var confirmacaoSenhaVar = input_confSenha.value;
-        var data_testeVar = '15 de Junho de 2022';
+        var data_testeVar = '8 de Junho de 2022';
         var desempenhoVar = `${parseInt(Math.random()*900)+100}`;
         var chamberVar = `${parseInt(Math.random()*20)+1}`;
 
@@ -90,6 +90,31 @@
         }
         else {
             setInterval(sumirMensagem, 5000)
+        }
+        if (idVar.length > 4 || idVar.length <= 3) {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "O seu ID deve conter 4 números";
+            finalizarAguardar();
+            return false
+        }
+        if (idVar.length[0] == 0) {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "O seu ID não pode começar com o número 0";
+            finalizarAguardar();
+            return false
+        }
+
+        if (idadeVar > 60) {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "Maiores de 60 anos não são permitidos";
+            finalizarAguardar();
+            return false
+        }
+        if (idadeVar < 18) {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "Menores de 18 anos não são permitidos";
+            finalizarAguardar();
+            return false
         }
         
         // Enviando o valor da nova input
@@ -116,12 +141,13 @@
 
             if (resposta.ok) {
                 cardErro.style.display = "block";
-
+                div_aguardar.style.display = "block";
+                linkLogin.style.marginTop = "420px";
                 mensagem_erro.innerHTML = "Cadastro realizado com sucesso! Redirecionando para tela de Login...";
 
                 setTimeout(() => {
                     window.location = "login.html";
-                }, "0000")
+                }, "2000")
 
                 limparFormulario();
                 finalizarAguardar();
