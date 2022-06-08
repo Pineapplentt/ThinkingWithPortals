@@ -13,44 +13,44 @@
 </head>
 
 <body>
-    <div class="alignHeader">
-        <div class="headerDash">
-            <div class="logolink">
-                <a href="index.html">
-                    <div class="logoimg"></div>
-                </a>
+    <div class="alignDash">
+        <div class="alignInfos">
+            <div class="headerDash">
+                <div class="logolink">
+                    <a href="index.html">
+                        <div class="logoimg"></div>
+                    </a>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <div class="align">
-        <div class="infosUser">
-            <div class="imgUser"></div>
-            <div class="texto">
-                <h2>Seja bem vindo(a)</h2>
-                <div class="infosPrincipal">
-                    <span>ID: <span id="idUser"></span></span>
-                    <span>Nome: <span id="nomeUser"></span></span>
-                    <span>Idade: <span id="idadeUser"></span></span>
-                    <span>Cidade: <span id="cidadeUser"></span>
+            <div class="infosUser">
+                <div class="imgUser"><img src="assets/imgs/icon/imgUser.png" alt=""></div>
+                <div class="texto">
+                    <h2>Seja bem vindo(a)</h2>
+                    <div class="infosPrincipal">
+                        <span>ID: <span id="idUser"></span></span>
+                        <span>Nome: <span id="nomeUser"></span></span>
+                        <span>Idade: <span id="idadeUser"></span></span>
+                        <span>Cidade: <span id="cidadeUser"></span>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="corpo">
             <div class="informacoes">
-                <div class="info1">
-                    <h2>Câmara de testes N°</h2>
-                    <span id="chamberUser"></span>
-                </div>
-                <div class="info2">
-                    <h2>Seu desempenho</h2>
-                    <span id="desempenhoUser"></span>
-                </div>
-                <div class="info3">
-                    <h2>Dificuldade da Câmara</h2>
-                    <span id="dificuldadeChamber"></span>
-                </div>
+                    <div class="info1">
+                        <h2>Câmara de testes N°</h2>
+                        <span id="chamberUser"></span>
+                    </div>
+                    <div class="info2">
+                        <h2>Seu desempenho</h2>
+                        <span id="desempenhoUser"></span>
+                    </div>
+                    <div class="info3">
+                        <h2>Dificuldade da Câmara</h2>
+                        <span id="dificuldadeChamber"></span>
+                    </div>
             </div>
+            <div class="msg"><i>Dados do seu teste em nosso Centro de Enriquecimento</i></div>
         </div>
     </div>
     <div class="footer">
@@ -77,16 +77,17 @@
                 </a></div>
         </div>
     </div>
+    </div>
 
 
     <script>
-          idUser.innerHTML = sessionStorage.id_user;
-          nomeUser.innerHTML = sessionStorage.nome_user;
-          idadeUser.innerHTML = sessionStorage.idade_user;
-          cidadeUser.innerHTML = sessionStorage.cidade_user;
-          desempenhoUser.innerHTML = sessionStorage.desempenho_user;
-          chamberUser.innerHTML = sessionStorage.chamber_user;
-          dificuldadeChamber.innerHTML = sessionStorage.dificuldade_chamber;
+        idUser.innerHTML = sessionStorage.id_user;
+        nomeUser.innerHTML = sessionStorage.nome_user;
+        idadeUser.innerHTML = sessionStorage.idade_user;
+        cidadeUser.innerHTML = sessionStorage.cidade_user;
+        desempenhoUser.innerHTML = sessionStorage.desempenho_user;
+        chamberUser.innerHTML = sessionStorage.chamber_user;
+        dificuldadeChamber.innerHTML = sessionStorage.dificuldade_chamber;
     </script>
 </body>
 
