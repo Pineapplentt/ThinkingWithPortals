@@ -76,14 +76,55 @@ body {
     margin-left: 30%;
 }
 
+.metricas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    border-radius: 10px 10px 0 0;
+    background-image: url(../assets/imgs/Tile\ background.jpg);
+    background-size: 100%;
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(4px);
+    font-weight: 500;
+}
+
+.metricas .texto {
+    display: flex;
+    text-align: center;
+}
+
+.metrica1, .metrica2, .metrica3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    opacity: 70%;
+    font-size: 1vw;
+}
+
+.metrica1 {
+    background-color: var(--laranja);
+}
+
+.metrica2 {
+    background-color: var(--azulClaro);
+}
+
+.metrica3 {
+    background-color: var(--azul);
+}
+
 .informacoes {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: red;
     width: 85%;
     height: 80%;
-    border-radius: 10px 10px 0 0;
     background-image: url(../assets/imgs/backgroundLaranja2.jpeg);
     background-position: center;
     background-size: 100%;
